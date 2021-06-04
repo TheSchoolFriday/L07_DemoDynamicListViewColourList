@@ -23,7 +23,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
 
         <Button
             android:id="@+id/buttonAddItem"
@@ -31,6 +32,23 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="ADD NEW COLOUR"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/buttonRemoveItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20sp"
+            android:text="REMOVE A COLOUR"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/buttonUpdateItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UPDATE THE COLOUR"
             app:backgroundTint="#000000" />
     </LinearLayout>
 
